@@ -10,6 +10,57 @@ body {
 
 
 
+
+
+
+/* Nav Bar */
+
+.topnav {
+    overflow: hidden;
+  
+  }
+  
+  .logo{
+      float: left;
+      padding-left: 2%;
+  }
+
+  .nav-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .sign{
+    float: r;
+
+  }
+
+  .topnav a {
+    float: left;
+    color: dimgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-bottom: 3px solid tomato;
+  }
+  
+  .topnav a.active {
+    background-color: tomato;
+    color: white;
+  }
+
+
+
+
+
 /* heading styles   */
 
 h1{    
@@ -74,8 +125,9 @@ footer p {
     width: 100%;
 }
 .half-div .big-img2 {
-    width: 75%;
-    margin-top: 20px;
+    width: 66%;
+    margin-top: 15%;
+    margin-left: 15%;
 }
 .small-img {
     width: 100%;
